@@ -1,0 +1,32 @@
+.inputForm .form-control {
+    border: none;
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+  }
+  
+  .inputForm .form-control::placeholder {
+    letter-spacing: 2px;
+  }
+  
+  .inputForm .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .btn-main {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--mainColor);
+  }
+  
+  label {
+    position: relative;
+    top: 0px;
+    color: var(--mainColor);
+    font-weight: bold;
+    transition: top 550ms;
+  }
+  
+  .hideLabel {
+    top: 35px;
+  }

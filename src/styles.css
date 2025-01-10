@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --mainColor: #1ABC9C;
+    --secColor: #2C3E50;
+}
+
+.mainColor {
+    background-color: var(--mainColor);
+}
+
+.secondaryColor {
+    background-color: var(--secColor);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+.mainContainer {
+    min-height: calc(100vh - 70px);
+    margin-top: 60px;
+  }
